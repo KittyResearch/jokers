@@ -247,8 +247,8 @@ function defaultWeb3(networkName) {
     console.log("Creating default web3 object. Network:", networkName)
     return new Web3(
         new Web3.providers.HttpProvider(
-            "https://data-seed-prebsc-1-s1.binance.org:8545/"
-            //"https://" + networkName.toLowerCase() + ".infura.io/v3/5be4fb52a8f9497dbbfef89b8a5c2cab"
+            //"https://data-seed-prebsc-1-s1.binance.org:8545/"
+            "https://" + networkName.toLowerCase() + ".infura.io/v3/5be4fb52a8f9497dbbfef89b8a5c2cab"
         )
     );
 }
