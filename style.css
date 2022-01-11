@@ -1,0 +1,49 @@
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+a:active {
+    color: coral;
+    text-decoration: underline;
+}
+
+a.interaction:link {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+a.interaction:visited {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+a.interaction:hover {
+    color: #5bc0de;
+    text-decoration: underline;
+}
+
+a.interaction:active {
+    color: #5bc0de;
+    text-decoration: underline;
+}
+
+.button-wrapper {
+    display: table-cell; 
+    vertical-align: middle;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+}
